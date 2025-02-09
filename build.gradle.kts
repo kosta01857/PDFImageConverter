@@ -28,11 +28,11 @@ dependencies {
 compose.desktop {
     application {
         mainClass = "com.kosta.converter.core.MainKt"
-
         nativeDistributions {
-            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
+            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb, TargetFormat.Exe)
             packageName = "ImageConverter"
             packageVersion = "1.0.0"
+            vendor = "Kosta Inc."
         }
     }
 }
